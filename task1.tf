@@ -1,7 +1,7 @@
 provider "aws" {
       region     = "ap-south-1"
-      access_key  =  "AKIA4VXSWU3E3KXSRHGJ"
-       secret_key = "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"
+      access_key  =  ""
+       secret_key = ""
      }
 resource "aws_key_pair" "keygen" {
   key_name   = "deployer-key"
